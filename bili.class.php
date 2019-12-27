@@ -1,8 +1,8 @@
 <?php
 require_once("curl.class.php");
 class bili {
-    public const ak = "1d8b6e7d45233436";
-    public const sk = "560c52ccd288fed045859ed18bffd973";
+    public const ak = "";
+    public const sk = "";
     
     function login($userid,$pwd,$captcha = false) {
         $loginkey = $this->get_loginkey();
